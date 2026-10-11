@@ -1,0 +1,9 @@
+name = "super-cheetah"
+pages_build_output_dir = "dist"
+compatibility_date = "2025-01-01"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "super-cheetah-db"
+# `wrangler d1 create super-cheetah-db` で表示された ID に置き換える
+database_id = "c593e985-5139-4c22-a068-d771fb300f0a"
